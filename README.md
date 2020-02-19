@@ -25,4 +25,7 @@ nvidia-smi: 查看显存情况
 
 修改软件默认路径：vim ~/.bashrc
 
+jupyter: jupyter notebook, 在网址输入：http://10.67.42.43:8080/user/lianyixin/lab?redirects=1
+
+
 
