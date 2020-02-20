@@ -3,8 +3,11 @@ frequently used command in terminal, ssh, etc.
 
 ### windows快捷键
 win+D: 最小化所有窗口
+
 win+下：部分小化当前窗口
+
 win+左：当前窗口占满左部分屏幕
+
 alt+空格+N: 最小化当前窗口
 
 ### SSH
@@ -31,7 +34,9 @@ jupyter: jupyter notebook, 在网址输入：http://10.67.42.43:8080/user/lianyi
 
 ### Git
 git remote -v: 显示远程路径
+
 git remote add origin +路径：添加origin路径
+
 git remote rm origin：删除origin路径
 
 复制子目录：
@@ -50,7 +55,16 @@ git pull origin master    //下载
 
 ### vim
 gg: 调到最上面
+
 shift+g：调到最下面
+
+?xxx+Enter：查找字符串，n: 向上选择；N：向下选择
+
+取消高亮  :noh
+
+显示行数 :set nu 取消行数 :set nonu
+
+向上翻页：ctrl+b 向下翻页：ctrl+f
 
 
 
