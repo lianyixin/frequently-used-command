@@ -103,7 +103,7 @@ shift+g：调到最下面
 撤销操作：u
 
 ### 更改terminal界面
-安装zsh：
+安装zsh（注意：以下的方法适用于没有root权限的用户账户）：
 
 Download and extract
 wget http://www.zsh.org/pub/zsh-5.4.2.tar.gz
@@ -126,7 +126,7 @@ make install
 echo "export PATH=$HOME/local/bin:$PATH" >> ~/.bashrc
 echo "exec zsh" >> ~/.bashrc
 
-**下载oh-my-zsh:**
+下载oh-my-zsh:
 
 switch to zsh first: exec zsh
 curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed -e 's/grep\ \/zsh\$\ \/etc\/shells/which zsh/g' | zsh
