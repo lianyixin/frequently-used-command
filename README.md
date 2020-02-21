@@ -36,7 +36,7 @@ nvidia-smi: 查看显存情况
 
 jupyter: jupyter notebook, 在网址输入：http://10.67.42.43:8080/user/lianyixin/lab?redirects=1
 
-下载单个文件： wget+路径
+下载单个文件： wget+路径（容易出现文件损坏的问题）
 
 显示当前路径： pwd
 
@@ -44,6 +44,17 @@ jupyter: jupyter notebook, 在网址输入：http://10.67.42.43:8080/user/lianyi
 1. import sys；  sys.path.append('/home/wang/workspace')
 2. vim ~/.bashrc； export PYTHONPATH=$PYTHONPATH:/home/wang/workspace； source ~/.bashrc # 或者 . ~/.bashrc 
 3. 在 /usr/local/lib/python3.5/site-packages 下添加一个扩展名为 .pth 的配置文件（例如：extras.pth），内容为要添加的路径：/home/wang/workspace
+
+退回原目录： cd - 返回上一级目录：cd ..
+
+查看安装包情况：pip show 安装包； 查看所有安装包：pip list
+
+安装zsh：for centos system, sudo yum update && sudo yum -y install zsh; 
+
+查看系统python版本：python --version; python3 --version；
+
+设置python版本默认指向python3： echo alias python=python3 >> ~/.bashrc；source ~/.bashrc
+
 
 ### Git
 git remote -v: 显示远程路径
