@@ -40,6 +40,11 @@ jupyter: jupyter notebook, 在网址输入：http://10.67.42.43:8080/user/lianyi
 
 显示当前路径： pwd
 
+在 Python 环境中增加搜索路径：
+1. import sys；  sys.path.append('/home/wang/workspace')
+2. vim ~/.bashrc； export PYTHONPATH=$PYTHONPATH:/home/wang/workspace； source ~/.bashrc # 或者 . ~/.bashrc 
+3. 在 /usr/local/lib/python3.5/site-packages 下添加一个扩展名为 .pth 的配置文件（例如：extras.pth），内容为要添加的路径：/home/wang/workspace
+
 ### Git
 git remote -v: 显示远程路径
 
