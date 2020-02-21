@@ -23,6 +23,8 @@ alt+tab: 切换屏幕
 
 在不同窗口切换：ctrl+tab
 
+
+
 ### Terminal
 查看系统：cat /etc/os-release
 
@@ -49,7 +51,13 @@ jupyter: jupyter notebook, 在网址输入：http://10.67.42.43:8080/user/lianyi
 
 查看安装包情况：pip show 安装包； 查看所有安装包：pip list
 
-安装zsh：for centos system, sudo yum update && sudo yum -y install zsh; 
+安装zsh：
+1. 
+
+解压tar.xz文件： tar xf 文件名
+
+
+
 
 查看系统python版本：python --version; python3 --version；
 
@@ -89,6 +97,13 @@ shift+g：调到最下面
 显示行数 :set nu 取消行数 :set nonu
 
 向上翻页：ctrl+b 向下翻页：ctrl+f
+
+删除一行：dd
+
+复制粘贴：v进入visual模式，y复制，p粘贴
+
+撤销操作：u
+
 
 
 
