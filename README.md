@@ -88,6 +88,8 @@ shift+g：调到最下面
 
 ?xxx+Enter：查找字符串，n: 向上选择；N：向下选择
 
+/xxx+Enter: 查找字符串，n：向下选择；N:向上
+
 取消高亮  :noh
 
 显示行数 :set nu 取消行数 :set nonu
@@ -130,6 +132,16 @@ switch to zsh first: exec zsh
 curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed -e 's/grep\ \/zsh\$\ \/etc\/shells/which zsh/g' | zsh
 
 最后将之前在bashrc设置的路径复制到zshrc文件里。
+
+更改主题：vim ~/.zshrc里面更换theme
+
+添加新的插件：
+
+语法高亮：cd /home/shellhub/.oh-my-zsh/custom/plugins；git clone https://github.com/zsh-users/zsh-syntax-highlighting
+
+语法建议：git clone https://github.com/zsh-users/zsh-autosuggestions
+
+vim ~/.zshrc添加在plugins
 
 oh-my-zsh基本快捷键：
 CTRL + a 回到行首
