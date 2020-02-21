@@ -130,3 +130,16 @@ switch to zsh first: exec zsh
 curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed -e 's/grep\ \/zsh\$\ \/etc\/shells/which zsh/g' | zsh
 
 最后将之前在bashrc设置的路径复制到zshrc文件里。
+
+oh-my-zsh基本快捷键：
+CTRL + a 回到行首
+有时候打了一条命令，发现需要加 sudo，这时候就可以 按下 CTRL + a 回到行首，然后回车执行
+CTRL + e 回到行尾
+CTRL + d 删掉光标所在处的一个字符（删除键删的是光标前的一个字符）
+CTRL + w 删掉光标前的一个单词
+这比一个字母一个字母地删快多了。
+CTRL + k 删掉光标后的所有字符
+CTRL + u 清空整行
+CTRL + b 前移一个字符（相当于左箭头）
+CTRL + f 后移一个字符（相当于右箭头）
+CRTL + l（L的小写字母）清屏
