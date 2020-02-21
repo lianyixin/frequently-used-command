@@ -51,13 +51,9 @@ jupyter: jupyter notebook, 在网址输入：http://10.67.42.43:8080/user/lianyi
 
 查看安装包情况：pip show 安装包； 查看所有安装包：pip list
 
-安装zsh：
-1. 
-
 解压tar.xz文件： tar xf 文件名
 
-
-
+centos系统内置： yum install xxx; yum remove xxx
 
 查看系统python版本：python --version; python3 --version；
 
@@ -104,6 +100,33 @@ shift+g：调到最下面
 
 撤销操作：u
 
+### 更改terminal界面
+安装zsh：
 
+Download and extract
+wget http://www.zsh.org/pub/zsh-5.4.2.tar.gz
+tar -xzf zsh-5.4.2.tar.gz
+rm zsh-5.4.2.tar.gz
+cd zsh-5.4.2
 
+I will install to $HOME/local -- change it to suit your case
+mkdir ~/local
 
+check install directory
+./configure --prefix=$HOME/local
+make
+
+all tests should pass or skip
+make check
+make install
+
+放进bashrc:
+echo "export PATH=$HOME/local/bin:$PATH" >> ~/.bashrc
+echo "exec zsh" >> ~/.bashrc
+
+**下载oh-my-zsh:**
+
+switch to zsh first: exec zsh
+curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed -e 's/grep\ \/zsh\$\ \/etc\/shells/which zsh/g' | zsh
+
+最后将之前在bashrc设置的路径复制到zshrc文件里。
