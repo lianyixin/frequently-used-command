@@ -57,7 +57,7 @@ centos系统内置： yum install xxx; yum remove xxx
 
 查看系统python版本：python --version; python3 --version；
 
-设置python版本默认指向python3： echo alias python=python3 >> ~/.bashrc；source ~/.bashrc
+设置python版本默认指向python3： echo alias python=python3 >> ~/.bashrc；source ~/.bashrc （注意这个alias不能随意更改，否则虚拟环境的python路径也会受这个影响）
 
 
 ### Git
