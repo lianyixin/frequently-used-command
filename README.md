@@ -19,7 +19,7 @@ alt+tab: 切换屏幕
 
 修改用户名密码: passwd
 
-从本地上传文件到远程服务器，使用本地terminal：scp C:\Users\l00556051\Desktop\NLU lianyixin@10.67.42.42:~/
+从本地上传文件到远程服务器，使用本地terminal：scp C:\Users\l00xxxxx\Desktop\NLU 用户名@ip地址:~/
 
 在不同窗口切换：ctrl+tab
 
@@ -36,7 +36,7 @@ nvidia-smi: 查看显存情况
 
 修改软件默认路径：vim ~/.bashrc
 
-jupyter: jupyter notebook, 在网址输入：http://10.67.42.43:8080/user/lianyixin/lab?redirects=1
+jupyter: jupyter notebook, 在网址输入：http://IP地址:8080/user/xxxxxx
 
 下载单个文件： wget+路径（容易出现文件损坏的问题）
 
