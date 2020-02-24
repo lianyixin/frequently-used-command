@@ -34,6 +34,8 @@ nvidia-smi: 查看显存情况
 
 安装创建virtualenv: pip install virtualenv; 新建环境：virtualenv envname 或者 virtualenv -p python3 myenv; 进入环境：source envname/bin/activate; 退出：deactivate
 
+生成requirements文件： pip freeze > requirements.txt； 安装requirements文件：pip install -r requirements.txt
+
 修改软件默认路径：vim ~/.bashrc
 
 jupyter: jupyter notebook, 在网址输入：http://IP地址:8080/user/xxxxxx
@@ -59,6 +61,9 @@ centos系统内置： yum install xxx; yum remove xxx
 
 设置python版本默认指向python3： echo alias python=python3 >> ~/.bashrc；source ~/.bashrc （注意这个alias不能随意更改，否则虚拟环境的python路径也会受这个影响）
 
+查询进程id号：ps aux | grep xxx；杀掉进程：kill -9 id号；
+
+后台运行进程：nohup python xxx >> output.log 2>&1 &; jobs -l(查看当前终端的)；ps -aux|grep chat.js| grep -v grep | awk '{print $2}' （用awk提取进程id号）
 
 ### Git
 git remote -v: 显示远程路径
@@ -78,8 +83,6 @@ echo 'convlab/modules/nlu/multiwoz/bert*' >> .git/info/sparse-checkout //设置�
 git remote add origin https://github.com/ConvLab/ConvLab.git  //这里换成你要克隆的项目和库
  
 git pull origin master    //下载
-
-
 
 ### vim
 gg: 调到最上面
