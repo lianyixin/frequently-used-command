@@ -109,7 +109,7 @@ shift+g：调到最下面
 
 自动indent：:set autoindent
 
-tab为四个空格：:set tabstop=4
+tab为四个空格：:set ts=4 sw=4 expandtab
 
 批量注释：ctrl+v，选中行数，大写I插入“#”，连续按两次esc，会将所有选中的行都注释；
 
