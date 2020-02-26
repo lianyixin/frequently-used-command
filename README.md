@@ -119,6 +119,12 @@ tab为四个空格：:set ts=4 sw=4 expandtab
 
 批量取消注释：ctrl+v，选中行数，按d取消选中所有。
 
+### Conda
+下载conda sh文件，sh该文件开始安装。source下bashrc文件。
+
+conda create -n mypython3 python=3
+
+
 ### 更改terminal界面
 安装zsh（注意：以下的方法适用于没有root权限的用户账户，且该方法会导致一些功能比如scp，sftp不可以使用。同时注意要小心更改bashrc文件，否则出错后将无法远程登录系统）：
 
