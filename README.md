@@ -65,6 +65,10 @@ centos系统内置： yum install xxx; yum remove xxx
 
 后台运行进程：nohup python xxx >> output.log 2>&1 &; jobs -l(查看当前终端的)；ps -aux|grep chat.js| grep -v grep | awk '{print $2}' （用awk提取进程id号）
 
+显示所有隐藏文件： ls -a 
+
+
+
 ### Git
 git remote -v: 显示远程路径
 
