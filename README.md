@@ -121,6 +121,9 @@ tab为四个空格：:set ts=4 sw=4 expandtab
 
 调到指定行 :n, n为行数
 
+zz: 将当前行置于屏幕中间 zt: 将当前行置于屏幕顶端 zb：底端
+ctrl-e: 所在行向上移 ctrl-y: 所在行向下移
+
 ### Conda
 下载conda sh文件，sh该文件开始安装。source下bashrc文件。
 
