@@ -53,7 +53,7 @@ jupyter: jupyter notebook, 在网址输入：http://IP地址:8080/user/xxxxxx
 
 查看安装包情况：pip show 安装包； 查看所有安装包：pip list
 
-解压tar.xz文件： tar xf 文件名
+解压tar.xz文件： tar xf 文件名 解压tar.gz文件：tar -zxvf xxx
 
 centos系统内置： yum install xxx; yum remove xxx
 
