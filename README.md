@@ -119,6 +119,8 @@ tab为四个空格：:set ts=4 sw=4 expandtab
 
 批量取消注释：ctrl+v，选中行数，按d取消选中所有。
 
+调到指定行 :n, n为行数
+
 ### Conda
 下载conda sh文件，sh该文件开始安装。source下bashrc文件。
 
