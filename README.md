@@ -124,6 +124,10 @@ tab为四个空格：:set ts=4 sw=4 expandtab
 zz: 将当前行置于屏幕中间 zt: 将当前行置于屏幕顶端 zb：底端
 ctrl-e: 所在行向上移 ctrl-y: 所在行向下移
 
+自动补全：ctrl+p向上补全  ctrl+n向下补全
+
+整行补全：ctrl+x进入x模式，再ctrl+l，关于更多补全的命令：https://blog.easwy.com/archives/advanced-vim-skills-auto-complete/
+
 ### Conda
 下载conda sh文件，sh该文件开始安装。source下bashrc文件。
 
