@@ -128,6 +128,10 @@ ctrl-e: 所在行向上移 ctrl-y: 所在行向下移
 
 整行补全：ctrl+x进入x模式，再ctrl+l，关于更多补全的命令：https://blog.easwy.com/archives/advanced-vim-skills-auto-complete/
 
+yy：复制，p：粘贴
+
+
+
 ### Conda
 下载conda sh文件，sh该文件开始安装。source下bashrc文件。
 
