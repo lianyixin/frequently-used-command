@@ -70,6 +70,11 @@ centos系统内置： yum install xxx; yum remove xxx
 
 
 ### Git
+
+新建用户后需要设置ssh key。根据GitHub ssh key设置指导，在本地生成加密密码后，在GitHub网页更新钥匙。然后添加全局变量：
+
+git config --global user.name "XXX"；git config --global user.email "XXX"
+
 git remote -v: 显示远程路径
 
 git remote add origin +路径：添加origin路径
@@ -91,6 +96,8 @@ git pull origin master    //下载
 删除当地git信息：rm -rf ./.git/
 
 删除本地关联远程库：git remote remove origin 添加本地关联远程库：git remote add origin git@github.com:git_username/repository_name.git
+
+
 
 ### vim
 gg: 调到最上面
