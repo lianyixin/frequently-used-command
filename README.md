@@ -88,6 +88,10 @@ git remote add origin https://github.com/ConvLab/ConvLab.git  //这里换成你
  
 git pull origin master    //下载
 
+删除当地git信息：rm -rf ./.git/
+
+删除本地关联远程库：git remote remove origin 添加本地关联远程库：git remote add origin git@github.com:git_username/repository_name.git
+
 ### vim
 gg: 调到最上面
 
