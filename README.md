@@ -1,5 +1,5 @@
 # frequently-used-command
-frequently used command in terminal, ssh, etc.
+frequently used command during my work in Linux environment. 
 
 ### windows快捷键
 win+D: 最小化所有窗口
