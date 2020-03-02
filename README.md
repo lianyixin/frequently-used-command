@@ -141,6 +141,9 @@ ctrl-e: 所在行向上移 ctrl-y: 所在行向下移
 
 yy：复制，p：粘贴
 
+rar文件解压：
+
+下载tar.gz文件，解压后，在当前目录解压：unrar e -r /home/work/software/myfile.rar 在源文件目录解压：unrar x -r /home/work/software/myfile.rar
 
 
 ### Conda
