@@ -26,6 +26,8 @@ alt+tab: 切换屏幕
 
 
 ### Terminal
+/usr/local/bin /usr/bin，usr不是用户名，是unix system的缩写，存放系统文件。local适合存放用户的文件。
+
 查看系统：cat /etc/os-release
 
 top命令：查看处理器和任务情况
@@ -155,6 +157,12 @@ conda activate xxx; conda deactivate
 
 conda env remove -n xxx
 
+### Pycharm
+安装pycharm：
+
+将pycharm安装包压缩文件复制到自己主页的某个folder并解压，cd into "{installation home}/bin" and type: ./pycharm.sh，设置alias :vim ~/.bashrc；alias pycharm="nohup {path}/pycharm.sh &" 保存修改，退出 .bashrc 运行以下命令 source ~/.bashrc
+
+添加python路径： 在Project Interpreter里找到python路径的设置，添夹新的environment的python路径。
 
 ### 更改terminal界面
 安装zsh（注意：以下的方法适用于没有root权限的用户账户，且该方法会导致一些功能比如scp，sftp不可以使用。同时注意要小心更改bashrc文件，否则出错后将无法远程登录系统）：
