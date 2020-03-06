@@ -166,6 +166,8 @@ conda env remove -n xxx
 
 pycharm debug: https://zhuanlan.zhihu.com/p/62610785
 
+change font size, appearances. 
+
 ### 更改terminal界面
 安装zsh（注意：以下的方法适用于没有root权限的用户账户，且该方法会导致一些功能比如scp，sftp不可以使用。同时注意要小心更改bashrc文件，否则出错后将无法远程登录系统）：
 
