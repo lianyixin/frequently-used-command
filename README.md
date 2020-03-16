@@ -69,7 +69,7 @@ centos系统内置： yum install xxx; yum remove xxx
 
 显示所有隐藏文件： ls -a 
 
-
+查看系统磁盘占用情况：df -h
 
 ### Git
 
