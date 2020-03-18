@@ -161,6 +161,10 @@ conda env remove -n xxx
 
 删除kernel：jupyter kernelspec remove 环境名称
 
+打开jupyter的方法，一是：jupyter notebook，复制网址，将ip地址改为服务器地址，端口改为8080（跟配置有关）。
+
+二是：jupyter lab --ip 0.0.0.0，地址可以是任意的，打开的lab不会因为远程连接断掉而断掉。复制网址，将IP地址改为服务器地址，端口默认为8888即可。
+
 ### Pycharm
 安装pycharm：
 
