@@ -71,6 +71,8 @@ centos系统内置： yum install xxx; yum remove xxx
 
 查看系统磁盘占用情况：df -h
 
+更改文件权限：chmod -R a+rw xxx文件
+
 ### Git
 
 新建用户后需要设置ssh key。根据GitHub ssh key设置指导，在本地生成加密密码后，在GitHub网页更新钥匙。然后添加全局变量：
