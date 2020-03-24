@@ -73,6 +73,8 @@ centos系统内置： yum install xxx; yum remove xxx
 
 更改文件权限：chmod -R a+rw xxx文件
 
+Linux下载csv文件Windows打开中文乱码解决方案：iconv -f UTF-8 -t GBK 源文件 -o 现文件名； 上面的命令将utf-8格式转化为GBK格式，也就是windows默认打开csv文件的格式。
+
 ### Git
 
 新建用户后需要设置ssh key。根据GitHub ssh key设置指导，在本地生成加密密码后，在GitHub网页更新钥匙。然后添加全局变量：
