@@ -30,7 +30,7 @@ alt+tab: 切换屏幕
 
 查看系统：cat /etc/os-release
 
-top命令：查看处理器和任务情况
+top命令：查看处理器和任务情况, nvtop查看完整信息。
 
 nvidia-smi: 查看显存情况
 
