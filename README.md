@@ -51,6 +51,8 @@ centos系统内置： yum install xxx; yum remove xxx
 
 Linux下载csv文件Windows打开中文乱码解决方案：iconv -f UTF-8 -t GBK 源文件 -o 现文件名； 上面的命令将utf-8格式转化为GBK格式，也就是windows默认打开csv文件的格式。
 
+tensorboard：在当前events output出来的目录下，执行tensorboard --logdir ./即可，在跳出的http路径将ip地址改为服务器的。
+
 ### windows快捷键
 win+D: 最小化所有窗口
 
