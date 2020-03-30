@@ -166,9 +166,7 @@ conda env remove -n xxx
 二是：jupyter lab --ip 0.0.0.0，地址可以是任意的，打开的lab不会因为远程连接断掉而断掉。复制网址，将IP地址改为服务器地址，端口默认为8888即可。
 
 ### Pycharm
-安装pycharm：
-
-将pycharm安装包压缩文件复制到自己主页的某个folder并解压，cd into "{installation home}/bin" and type: ./pycharm.sh，设置alias :vim ~/.bashrc；alias pycharm="nohup {path}/pycharm.sh &" 保存修改，退出 .bashrc 运行以下命令 source ~/.bashrc
+安装pycharm：将pycharm安装包压缩文件复制到自己主页的某个folder并解压，cd into "{installation home}/bin" and type: ./pycharm.sh，设置alias :vim ~/.bashrc；alias pycharm="nohup {path}/pycharm.sh &" 保存修改，退出 .bashrc 运行以下命令 source ~/.bashrc
 
 添加python路径： 在Project Interpreter里找到python路径的设置，添夹新的environment的python路径。
 
@@ -178,7 +176,7 @@ change font size, appearances.
 
 常见快捷键：具体参考这个[链接](https://blog.csdn.net/BobYuan888/article/details/79885960)
 
-ctrl+y删除当前行；ctrl+d复制当前行；ctrl+home跳到首行；ctrl+end跳到尾行；home/end跳到当前行首/行尾；
+ctrl+y删除当前行；ctrl+d复制当前行；ctrl+home跳到首行；ctrl+end跳到尾行；home/end跳到当前行首/行尾；ctrl+g弹出框，可以选择跳转到具体行数
 
 ### 更改terminal界面
 安装zsh（注意：以下的方法适用于没有root权限的用户账户，且该方法会导致一些功能比如scp，sftp不可以使用。同时注意要小心更改bashrc文件，否则出错后将无法远程登录系统）：
