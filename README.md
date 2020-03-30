@@ -1,30 +1,6 @@
 # frequently-used-command
 frequently used command during my work in Linux environment. 
 
-### windows快捷键
-win+D: 最小化所有窗口
-
-win+下：部分小化当前窗口
-
-win+左：当前窗口占满左部分屏幕
-
-alt+空格+N: 最小化当前窗口
-
-win+L: 一键锁屏
-
-alt+tab: 切换屏幕
-
-### SSH
-软件: mobaxterm, new session, 输入用户名密码
-
-修改用户名密码: passwd
-
-从本地上传文件到远程服务器，使用本地terminal：scp C:\Users\l00xxxxx\Desktop\NLU 用户名@ip地址:~/
-
-在不同窗口切换：ctrl+tab
-
-
-
 ### Terminal
 /usr/local/bin /usr/bin，usr不是用户名，是unix system的缩写，存放系统文件。local适合存放用户的文件。
 
@@ -75,6 +51,28 @@ centos系统内置： yum install xxx; yum remove xxx
 
 Linux下载csv文件Windows打开中文乱码解决方案：iconv -f UTF-8 -t GBK 源文件 -o 现文件名； 上面的命令将utf-8格式转化为GBK格式，也就是windows默认打开csv文件的格式。
 
+### windows快捷键
+win+D: 最小化所有窗口
+
+win+下：部分小化当前窗口
+
+win+左：当前窗口占满左部分屏幕
+
+alt+空格+N: 最小化当前窗口
+
+win+L: 一键锁屏
+
+alt+tab: 切换屏幕
+
+### SSH
+软件: mobaxterm, new session, 输入用户名密码
+
+修改用户名密码: passwd
+
+从本地上传文件到远程服务器，使用本地terminal：scp C:\Users\l00xxxxx\Desktop\NLU 用户名@ip地址:~/
+
+在不同窗口切换：ctrl+tab
+
 ### Git
 
 新建用户后需要设置ssh key。根据GitHub ssh key设置指导，在本地生成加密密码后，在GitHub网页更新钥匙。然后添加全局变量：
@@ -102,8 +100,6 @@ git pull origin master    //下载
 删除当地git信息：rm -rf ./.git/
 
 删除本地关联远程库：git remote remove origin 添加本地关联远程库：git remote add origin git@github.com:git_username/repository_name.git
-
-
 
 ### vim
 gg: 调到最上面
@@ -176,9 +172,13 @@ conda env remove -n xxx
 
 添加python路径： 在Project Interpreter里找到python路径的设置，添夹新的environment的python路径。
 
-pycharm debug: https://zhuanlan.zhihu.com/p/62610785
+pycharm debug: 具体参考这个[链接](https://zhuanlan.zhihu.com/p/62610785)
 
 change font size, appearances. 
+
+常见快捷键：具体参考这个[链接](https://blog.csdn.net/BobYuan888/article/details/79885960)
+
+ctrl+y删除当前行；ctrl+d复制当前行；ctrl+home跳到首行；ctrl+end跳到尾行；home/end跳到当前行首/行尾；
 
 ### 更改terminal界面
 安装zsh（注意：以下的方法适用于没有root权限的用户账户，且该方法会导致一些功能比如scp，sftp不可以使用。同时注意要小心更改bashrc文件，否则出错后将无法远程登录系统）：
