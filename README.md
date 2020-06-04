@@ -89,6 +89,8 @@ git remote add origin +路径：添加origin路径
 
 git remote rm origin：删除origin路径
 
+覆盖本地更新: git checkout .   then:    git pull
+
 复制子目录：
 
 git init ConvLab && cd ConvLab     //新建仓库并进入文件夹
