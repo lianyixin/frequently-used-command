@@ -6,6 +6,8 @@ frequently used command during my work in Linux environment.
 
 查看系统：cat /etc/os-release
 
+查找文件: find ./ -name *split*
+
 top命令：查看处理器和任务情况, nvtop查看完整信息。
 
 nvidia-smi: 查看显存情况
