@@ -12,6 +12,8 @@ top命令：查看处理器和任务情况, nvtop查看完整信息。
 
 nvidia-smi: 查看显存情况
 
+显示MB为单位的文件大小：ll --block-size=M
+
 安装创建virtualenv: pip install virtualenv; 新建环境：virtualenv envname 或者 virtualenv -p python3 myenv; 进入环境：source envname/bin/activate; 退出：deactivate
 
 生成requirements文件： pip freeze > requirements.txt； 安装requirements文件：pip install -r requirements.txt
