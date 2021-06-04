@@ -1,6 +1,11 @@
 # frequently-used-command
 frequently used command during my work in Linux environment. 
 
+### 新机启动
+找IT登入域账号以及密码，连接staff wifi，用域账号密码登入。一般如果需要vpn还得连接下。
+
+如果需要管理员权限，可以让管理员在他的账号底下先把我的账号加入到管理员权限即可。在计算机管理-用户-组底下进行添加。
+
 ### Terminal
 /usr/local/bin /usr/bin，usr不是用户名，是unix system的缩写，存放系统文件。local适合存放用户的文件。
 
