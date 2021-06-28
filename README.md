@@ -194,6 +194,9 @@ ctrl+y删除当前行；ctrl+d复制当前行；ctrl+home跳到首行；ctrl+end
 ### vscode
 安装各类插件，比如ssh，连接远程服务器，在config文件里进行配置；比如sftp，同样在config文件里配置。需要注意的是私钥文件需要存储在本地的.ssh文件夹下面，并且把对应的文件路径放到config里即可。
 
+vscode sftp upload no such file 错误的解决办法:
+可以参考链接：https://blog.csdn.net/funnyPython/article/details/116530001
+
 ### 更改terminal界面
 安装zsh（注意：以下的方法适用于没有root权限的用户账户，且该方法会导致一些功能比如scp，sftp不可以使用。同时注意要小心更改bashrc文件，否则出错后将无法远程登录系统）：
 
