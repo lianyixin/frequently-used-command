@@ -212,7 +212,7 @@ vscode sftp upload no such file 错误的解决办法:
 
 启动已经停止的容器：docker start image_id
 
-后台运行：docker run -itd --name xxx image_repos:tag /bin/bash，加上d说明后台运行；想进入容器使用指令docker exec -it image_id /bin/bash
+后台运行：docker run -itd --name xxx image_repos:tag /bin/bash，加上d说明后台运行；想进入容器使用指令docker -it container_id /bin/bash
 
 停止容器：docker stop image_id; docker restart image_id可以重启；
 
