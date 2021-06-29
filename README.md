@@ -197,6 +197,31 @@ ctrl+y删除当前行；ctrl+d复制当前行；ctrl+home跳到首行；ctrl+end
 vscode sftp upload no such file 错误的解决办法:
 可以参考链接：https://blog.csdn.net/funnyPython/article/details/116530001
 
+### docker 
+从tar包安装镜像：docker load -i xxx.tar; cat xxx.tar | docker import - repos:tag
+
+镜像重命名：docker tag image_id new_repos:new_tag
+
+删除相同id不同repos和tag的镜像：docker rmi repos:tag；删除镜像：docker rmi image_id
+
+拉取镜像：docker search anaconda; docker pull consXXX/anaconda;
+
+根据镜像启动容器：docker run -it image_repos:tag /bin/bash；退出终端：exit
+
+查看所有容器：docker ps -a
+
+启动已经停止的容器：docker start image_id
+
+后台运行：docker run -itd --name xxx image_repos:tag /bin/bash，加上d说明后台运行；想进入容器使用指令docker exec -it image_id /bin/bash
+
+停止容器：docker stop image_id; docker restart image_id可以重启；
+
+导出容器：docker export image_id > xxx.tar
+
+删除容器：docker rm -f container_id; 删除所有容易：docker rm $(docker ps -a -q)
+
+重命名容器：docker container_origin container_new; docker rename old new
+
 ### 更改terminal界面
 安装zsh（注意：以下的方法适用于没有root权限的用户账户，且该方法会导致一些功能比如scp，sftp不可以使用。同时注意要小心更改bashrc文件，否则出错后将无法远程登录系统）：
 
