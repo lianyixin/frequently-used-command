@@ -7,6 +7,11 @@ frequently used command during my work in Linux environment.
 如果需要管理员权限，可以让管理员在他的账号底下先把我的账号加入到管理员权限即可。在计算机管理-用户-组底下进行添加。
 
 ### Terminal
+通过root创建新用户和密码：https://blog.csdn.net/stormbjm/article/details/9086163
+adduser xxx; passwd xxx;
+
+root切换到普通用户： login -f username；普通用户切回来：sudo su
+
 /usr/local/bin /usr/bin，usr不是用户名，是unix system的缩写，存放系统文件。local适合存放用户的文件。
 
 查看系统：cat /etc/os-release
