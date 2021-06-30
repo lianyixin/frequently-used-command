@@ -211,7 +211,9 @@ vscode sftp upload no such file 错误的解决办法:
 
 拉取镜像：docker search anaconda; docker pull consXXX/anaconda;
 
-根据镜像启动容器：docker run -it image_repos:tag /bin/bash；退出终端：exit
+根据镜像启动容器：docker run -it image_repos:tag /bin/bash；退出终端：exit；加端口以及gpus设置：docker run --gpus all -it -p 10008:10008 -v /mnt/xxx/:/mnt/xxx image_repos:tag /bin/bash
+
+根据更新后的容器创建新的镜像：docker commit -a "author name" -m "message" container_id new_repos:new_tag
 
 查看所有容器：docker ps -a
 
