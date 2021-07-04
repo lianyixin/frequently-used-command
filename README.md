@@ -12,6 +12,12 @@ adduser xxx; passwd xxx;
 
 root切换到普通用户： login -f username；普通用户切回来：sudo su
 
+云服务器有公网和私网之分，查看公网ip可以使用：curl cip.cc；查看本地ip使用：ipconfig, ip addr；查看端口是否正常通信：telnet 192.168.31.100 8081. 连接失败表示端口未占用。
+
+查看docker ip：docker inspect 容器ID | grep IPAddress
+
+一行命令创建http server: python3 -m http.server 80
+
 /usr/local/bin /usr/bin，usr不是用户名，是unix system的缩写，存放系统文件。local适合存放用户的文件。
 
 查看系统：cat /etc/os-release
