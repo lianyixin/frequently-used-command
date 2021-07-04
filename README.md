@@ -89,6 +89,10 @@ alt+tab: 切换屏幕
 
 在不同窗口切换：ctrl+tab
 
+如果经常掉线，可以如果使用了MobaXterm客户端，那么需要在设置里点选setting>SSH>sessions setting>勾选ssh Keepalive
+
+如果使用vscode，可以安装ssh插件，其操作和mobaxterm一致。
+
 ### Git
 需要注意repo有两个clone的方式，一个是ssh，一个是http，处理方法不一样；ssh密码设置方法如下。如果是http，在github网上生成credential以及密码后，在本地git输入过一次密码后，为了记住密码，可以使用如下的命令：git config --global credential.helper store；就可以实现长期保存密码了。
 
