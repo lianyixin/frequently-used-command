@@ -90,6 +90,7 @@ alt+tab: 切换屏幕
 在不同窗口切换：ctrl+tab
 
 ### Git
+需要注意repo有两个clone的方式，一个是ssh，一个是http，处理方法不一样；ssh密码设置方法如下。如果是http，在github网上生成credential以及密码后，在本地git输入过一次密码后，为了记住密码，可以使用如下的命令：git config --global credential.helper store；就可以实现长期保存密码了。
 
 新建用户后需要设置ssh key。根据GitHub ssh key设置指导，在本地生成加密密码后，在GitHub网页更新钥匙。然后添加全局变量：
 
