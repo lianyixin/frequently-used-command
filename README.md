@@ -213,6 +213,8 @@ ctrl+y删除当前行；ctrl+d复制当前行；ctrl+home跳到首行；ctrl+end
 vscode sftp upload no such file 错误的解决办法:
 可以参考链接：https://blog.csdn.net/funnyPython/article/details/116530001
 
+vscode在使用docker远程连接时，需要下载docker destop版本，并且按照intro安装wsl，之后可以使用remote-container插件连接到远程的container上。需要注意的是有个小bug：如果不打开文件夹项目，直接attach to remote container是会显示no container running，所以得先打开一个文件夹项目，然后再attach to remote container才可以。
+
 ### docker 
 从tar包安装镜像：docker load -i xxx.tar; cat xxx.tar | docker import - repos:tag
 
