@@ -215,7 +215,7 @@ vscode sftp upload no such file 错误的解决办法:
 
 vscode在使用docker远程连接时，需要下载docker destop版本，并且按照intro安装wsl，之后可以使用remote-container插件连接到远程的container上。需要注意的是有个小bug：如果不打开文件夹项目，直接attach to remote container是会显示no container running，所以得先打开一个文件夹项目，然后再attach to remote container才可以。
 
-关于matplotlib: 一般interactive的界面会采用matplotlib.use('TkAgg')，正常设置都是use('Agg')。
+关于matplotlib: 一般interactive的界面会采用matplotlib.use('TkAgg')，正常设置都是use('Agg')。目前镜像里显示图片的设置还没弄好。具体可以考虑参考：https://blog.csdn.net/weixin_42698556/article/details/86661877 
 
 ### docker 
 从tar包安装镜像：docker load -i xxx.tar; cat xxx.tar | docker import - repos:tag
